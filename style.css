@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Work Sans';
+}
+
+    /* header  */
+
+header {
+    height: 100vh;
+    width: 100%;
+    background: url(images/banner/banner2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.banner {
+    float: right;
+    text-align: right;
+    width: 40%;
+    padding-top: 100px;
+    padding-right: 150px;
+}
+.banner-title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: #151414;
+
+}
+.banner-description {
+    padding: 30px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+.btn-one {
+    background: #F15B22;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    transition: .5s;
+    outline: none;
+    cursor: pointer;
+}
+
+    /* main  */
+
+main {
+    margin: 0 200px;
+}
+
+ /* profile information  */
+
+.profile-info {
+    margin: 130px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-div {
+    width: 59%;
+    height: auto;
+}
+.image-div img {
+    width: 100%;
+    height: auto;
+}
+.info-div {
+    width: 40%;
+    height: 100%;
+}
+.info-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    padding-bottom: 10px;
+}
+.info-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    padding: 10px 0;
+}
+.info-list li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    list-style: none;
+    color: #444343;
+}
+.info-list img {
+    height: 11px;
+    width: 16px;
+    padding-right: 15px;
+}
+
+/* my plan */
+
+.plans-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+.plans-div {
+    display: flex;
+    padding-top: 40px;
+    gap: 30px;
+    justify-content: space-between;
+}
+.plan {
+    text-align: center;
+    width: 20%;
+}
+.plan-title {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 35px;
+    padding-top: 10px;
+}
+.plan-summary {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 29px;
+    color: #737272;
+    padding-top: 10px;
+}
+
+/* blend section  */
+
+.blend-sec {
+    margin: 130px 0;
+    width: 100%;
+    height: 300px;
+    background: url(./images/gradient2.png), url(./images/watch.png);
+    background-size: contain;
+    background-blend-mode: normal;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 15px;
+}
+.blend-div {
+    width: 50%;
+    padding-left: 60px;
+    padding-top: 65px;
+    text-align: left;
+    border: none;
+}
+.blend-sec-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+
+/* conatact information  */
+
+.contact-area {
+    width: 70%;
+}
+.contact-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 53px;
+    color: #F8F8F8;
+}
+.contact-description {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 26px;
+    color: #fff;
+    padding: 20px 0;
+}
+.contact-info {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 26px;
+    color: #fff;
+    padding: 5px 0;
+}
+.social-media-icons {
+    display: flex;
+    padding-top: 20px;
+}
+.social-media-icon {
+    padding-right: 25px;
+}
+
+/* input information  */
+
+.input-area {
+    width: 30%;
+    padding-left: 250px;
+}
+.input-area-title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #fff;
+}
+.input-area input {
+    width: 100%;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    background: transparent;
+    color: #F3F3F3;
+    padding: 10px 0;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    outline: none;
+    padding: 20px 0 20px 20px;
+    margin: 40px 0  20px ;
+}
+.input-area button{
+    padding: 15px 30px;
+}
+/* footer   */
+
+footer {
+    padding: 100px 200px 100px 150px;
+    display: flex;
+    background: #151414;
+    justify-content: center;
+    /* gap: 500px; */
+}
